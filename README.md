@@ -171,7 +171,7 @@ class Livro(models.Model):
 
 ## Jogando as mudanças no banco de dados
 
-### Cria os arquivos de migração com base nas mudanças feitas nos models do projeto.
+### Criar os arquivos de migração com base nas mudanças feitas nos models do projeto:
 
 ```bash
 py manage.py makemigrations
@@ -181,7 +181,7 @@ py manage.py makemigrations
 
 #### O que faz: Analisa os modelos definidos no projeto e gera um arquivo de migração correspondente às mudanças detectadas. Este arquivo de migração é um script que descreve as operações necessárias para modificar a estrutura do banco de dados (criar tabelas, adicionar colunas, etc.).
 
-### Aplica as migrações criadas ao banco de dados.
+### Aplicar as migrações criadas ao banco de dados:
 
 ```bash
 py manage.py migrate
