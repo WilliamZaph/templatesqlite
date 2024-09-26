@@ -191,9 +191,7 @@ py manage.py migrate
 
 #### O que faz: Executa as alterações descritas nos arquivos de migração no banco de dados real, criando ou alterando tabelas, colunas, índices, etc., para sincronizar o banco de dados com o estado atual dos models do projeto.
 
-## Checando o banco de dados, será possível ver as tabelas criadas a partir do models.py
-
-### As tabelas criadas recebem o prefixo "myapp_nomedatabela", pela configuração padrão do Django que cria algo como "nomedoapp_nomedatabela".
+#### Checando o banco de dados, será possível ver as tabelas criadas a partir do models.py
 
 ## Tornando as tabelas visíveis no Django Admin:
 
